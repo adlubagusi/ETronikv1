@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CartActivity">
+
+    <RelativeLayout
+        android:id="@+id/r111"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#282828"
+        android:layout_alignParentTop="true">
+        <TextView
+            android:id="@+id/total_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Harga : "
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/msg1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:textAlignment="center"
+        android:layout_centerVertical="true"
+        android:textSize="20sp"
+        android:visibility="gone"
+        android:text="Selamat! Pesanan Anda berhasil dibuat. Akan segera diverifikasi"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/cart_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/r111"
+        android:layout_above="@+id/next_proccess_btn"
+        >
+    </android.support.v7.widget.RecyclerView>
+    <Button
+        android:id="@+id/next_proccess_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#282828"
+        android:text="Proses"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"/>
+</RelativeLayout>

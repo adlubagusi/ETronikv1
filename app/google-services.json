@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "94577291526",
+    "firebase_url": "https://e-tronik-beta.firebaseio.com",
+    "project_id": "e-tronik-beta",
+    "storage_bucket": "e-tronik-beta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94577291526:android:f5d59ce9a05dd056",
+        "android_client_info": {
+          "package_name": "com.adlubagusi.e_tronikv1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "94577291526-vfk0fnug9entpvqke95nqp2k0qi11m8k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.adlubagusi.e_tronikv1",
+            "certificate_hash": "9ddd53597676d1463ec17e0dcf0159d63a7a1294"
+          }
+        },
+        {
+          "client_id": "94577291526-om9gu75e2gp52vfb3df6c2r519qqrh8h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCclNPdClSF-ESgi9o74CkdDIBXnhvLsEA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "94577291526-om9gu75e2gp52vfb3df6c2r519qqrh8h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

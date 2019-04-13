@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProductDetailActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:id="@+id/product_image_details"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:id="@+id/product_name_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Produk"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_below="@+id/product_image_details"/>
+    <TextView
+        android:id="@+id/product_desc_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deskripsi Produk"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_below="@+id/product_name_details"/>
+    <TextView
+        android:id="@+id/product_price_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Harga Produk"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_below="@+id/product_desc_details"/>
+
+    <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+        android:layout_width="wrap_content"
+        android:backgroundTint="#282828"
+        android:id="@+id/number_btn"
+        android:layout_height="wrap_content"
+        app:textSize="16dp"
+        android:elevation="6dp"
+        app:initialNumber="1"
+        app:textColor="#fff"
+        android:background="#282828"
+        app:finalNumber="10"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/product_price_details"
+        >
+    </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
+
+    <Button
+        android:id="@+id/product_add_to_cart_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:background="#282828"
+        android:text="Tambahkan Ke Keranjang"
+        android:textSize="18dp"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="15dp"/>
+</RelativeLayout>
